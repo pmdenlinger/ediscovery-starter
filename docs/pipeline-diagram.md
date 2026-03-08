@@ -1,5 +1,5 @@
-```
-npm i -g @mermaid-js/mermaid-cli
+``` mermaid
+
 mmdc -i docs/pipeline-diagram.mmd -o docs/pipeline-diagram.png
 
 ```
