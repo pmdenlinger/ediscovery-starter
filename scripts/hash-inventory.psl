@@ -1,0 +1,13 @@
+# Quick hash inventory (SHA256) for a directory tree
+param(
+  [Parameter(Mandatory=$false)]
+  [string]$Path = "."
+)
+Get-ChildItem -Path $Path -Recurse -File | ForEach-Object {
+  $hash = Get-FileHash -Path $_.FullName -Algorithm SHA256
+  [PSCustomObject]@{
+    File = $_.FullName
+    SHA256 = $hash.Hash
+  }
+} | Export-Csv -NoTypeInformation -Path "evidence/hash-inventory.csv"
+Write-Host "Hash inventory written to evidence/hash-inventory.csv"

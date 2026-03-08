@@ -1,0 +1,6 @@
+- [ ] Matter name, counsel, deadlines
+- [ ] Legal hold scope/confirmation
+- [ ] Custodian list & data sources
+- [ ] ESI protocol status
+- [ ] Production spec draft
+- [ ] Security/delivery method
