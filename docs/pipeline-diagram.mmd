@@ -1,5 +1,16 @@
-``` mermaid
+flowchart LR
+A["Data Sources<br/>(.eml, .json, .msg, .pdf)"] --> B[01 · Ingestion]
+B --> C[02 · Normalization & Metadata Extraction]
+C --> D["PII Detection<br/>(emails, phones)"]
+C --> E["Privilege Heuristics<br/>(keyword-based)"]
+D --> F[Review Set Assembly]
+E --> F
+F --> G["04 · Exports<br/>(DAT/OPT, natives, text)"]
 
-mmdc -i docs/pipeline-diagram.mmd -o docs/pipeline-diagram.png
+    %% Parallel audit logging
+    C -.-> H["(Audit Log)"]
+    D -.-> H
+    E -.-> H
+    F -.-> H
 
-```
+    style H fill:#fff,stroke:#999,stroke-dasharray: 5 5
