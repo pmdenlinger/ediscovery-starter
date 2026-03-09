@@ -1,0 +1,11 @@
+{
+  "from": "alice@example.com",
+  "to": [
+    "it@example.com"
+  ],
+  "cc": [],
+  "subject": "Vendor onboarding",
+  "date": "2025-12-30T12:23:11+00:00",
+  "body": "Can we get outside counsel to review the agreement? The budget needs to be finalized by next Tuesday. Looping in Legal for advice on next steps. Call me at 714-555-3434. Contact: alice@contoso.com",
+  "attachments": []
+}

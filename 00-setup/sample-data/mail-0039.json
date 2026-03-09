@@ -1,0 +1,11 @@
+{
+  "from": "eve@fabrikam.com",
+  "to": [
+    "finance@example.com"
+  ],
+  "cc": [],
+  "subject": "Work Product - Data transfer assessment",
+  "date": "2025-09-26T16:19:13+00:00",
+  "body": "J’ajoute le service juridique pour avis. Appelez-moi au 714-555-3434 si besoin. Pouvons-nous demander au conseil externe d’examiner l’accord ? This may contain attorney-client material. Contact: bob@contoso.com",
+  "attachments": []
+}

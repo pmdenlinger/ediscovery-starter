@@ -1,0 +1,21 @@
+.PHONY: seed pipeline export near coc all clean
+
+seed:
+	python3 scripts/generate_synthetic_data.py --out 00-setup/sample-data --count 40 --eml 28 --json 12 --dup-rate 0.15 --near-dup-rate 0.20
+
+pipeline:
+	python3 run_pipeline.py --input 00-setup/sample-data --output out
+
+export:
+	python3 04-exports/export-relativity.py --input-csv out/review_set.csv --natives out/natives --text out/text --outdir out/relativity
+
+near:
+	python3 run_pipeline.py --input 00-setup/sample-data --output out --near-k 5 --near-threshold 0.85
+
+coc:
+	python3 scripts/generate_chain_of_custody.py
+
+all: seed pipeline export coc
+
+clean:
+	rm -rf out 00-setup/sample-data

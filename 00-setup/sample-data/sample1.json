@@ -1,0 +1,8 @@
+{
+  "from": "alice@example.com",
+  "to": ["bob@example.com"],
+  "cc": [],
+  "subject": "Project kickoff",
+  "date": "2024-01-01T10:00:00Z",
+  "body": "Hi Bob, let's kick off. Call me at +1-714-555-1212. Thanks, Alice."
+}

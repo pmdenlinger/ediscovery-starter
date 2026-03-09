@@ -1,0 +1,43 @@
+file_id,terms_matched,count_terms
+mail-0037,legal advice;counsel;outside counsel;solicitor-client,4
+mail-0040,legal advice;counsel;outside counsel,3
+mail-0036,solicitor-client,1
+mail-0022,attorney-client;counsel;outside counsel,3
+mail-0023,counsel;outside counsel,2
+sample2,attorney-client,1
+mail-0031,,0
+mail-0021,privileged;legal advice;counsel;outside counsel,4
+mail-0009,,0
+mail-0008,work product,1
+sample1,,0
+mail-0020,legal advice;counsel;outside counsel,3
+mail-0018,legal advice,1
+mail-0024,privileged;counsel;outside counsel,3
+mail-0025,attorney-client;legal advice;counsel;outside counsel,4
+mail-0019,,0
+mail-0030,counsel;outside counsel,2
+mail-0027,,0
+mail-0026,attorney-client;legal advice;counsel;outside counsel,4
+mail-0003,confidential legal;legal advice;counsel;outside counsel,4
+mail-0017,attorney-client,1
+mail-0016,counsel;outside counsel,2
+mail-0002,attorney-client;legal advice;counsel;outside counsel,4
+mail-0029,legal advice;counsel;outside counsel,3
+mail-0014,privileged,1
+mail-0028,legal advice;counsel;outside counsel,3
+mail-0001,attorney-client,1
+mail-0015,legal advice;counsel;outside counsel;solicitor-client,4
+mail-0033,counsel;outside counsel,2
+mail-0032,work product;legal advice;counsel;outside counsel,4
+mail-0011,legal advice;counsel;outside counsel;solicitor-client,4
+mail-0005,privileged;legal advice;counsel;outside counsel,4
+mail-0004,legal advice;counsel;outside counsel,3
+mail-0010,legal advice;counsel;outside counsel,3
+mail-0006,,0
+mail-0012,privileged;legal advice;counsel;outside counsel,4
+mail-0013,attorney-client;legal advice;counsel;outside counsel,4
+mail-0007,counsel;outside counsel,2
+mail-0035,legal advice,1
+mail-0039,attorney-client,1
+mail-0038,solicitor-client,1
+mail-0034,counsel;outside counsel,2

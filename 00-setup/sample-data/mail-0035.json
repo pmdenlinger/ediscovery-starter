@@ -1,0 +1,11 @@
+{
+  "from": "eve@contoso.com",
+  "to": [
+    "hr@example.com"
+  ],
+  "cc": [],
+  "subject": "Confidential - Pricing terms",
+  "date": "2025-04-19T17:24:02+00:00",
+  "body": "Call me at (714) 555-2121 if you have questions. The budget needs to be finalized by next Tuesday. Please see the attached draft and let me know your thoughts. This may contain legal advice material. Contact: alice@example.com",
+  "attachments": []
+}

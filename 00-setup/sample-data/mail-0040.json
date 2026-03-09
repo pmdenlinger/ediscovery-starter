@@ -1,0 +1,13 @@
+{
+  "from": "dave@contoso.com",
+  "to": [
+    "legal@fabrikam.com"
+  ],
+  "cc": [
+    "ann.wang@lawfirm.co"
+  ],
+  "subject": "Privileged - Pricing terms",
+  "date": "2025-12-18T23:43:35+00:00",
+  "body": "Can we get outside counsel to review the agreement? Please see the attached draft and let me know your thoughts. We will review this with the team tomorrow morning. This may contain legal advice material. Escalating to outside counsel for legal advice. Contact: carol@fabrikam.com",
+  "attachments": []
+}

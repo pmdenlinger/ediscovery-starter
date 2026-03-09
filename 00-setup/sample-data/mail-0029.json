@@ -1,0 +1,16 @@
+{
+  "from": "alice@contoso.com",
+  "to": [
+    "alice@contoso.com"
+  ],
+  "cc": [
+    "derek.dubois@counsel.example"
+  ],
+  "subject": "Attorney-Client - Vendor onboarding",
+  "date": "2026-01-27T17:10:44+00:00",
+  "body": "需要外部律师审阅这份协议。 我们明天上午和团队一起评审。 如有问题请拨打 +1-714-555-1212 联系我。 Escalating to outside counsel for legal advice. Contact: eve@fabrikam.com + note",
+  "attachments": [
+    "ATT-006-draft.txt",
+    "ATT-005-draft.txt"
+  ]
+}

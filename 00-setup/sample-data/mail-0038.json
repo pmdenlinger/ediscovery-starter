@@ -1,0 +1,13 @@
+{
+  "from": "dave@fabrikam.com",
+  "to": [
+    "legal@contoso.com"
+  ],
+  "cc": [],
+  "subject": "Work Product - Data transfer assessment",
+  "date": "2025-01-24T06:23:31+00:00",
+  "body": "Please see the attached draft and let me know your thoughts. The budget needs to be finalized by next Tuesday. We will review this with the team tomorrow morning. This may contain solicitor-client material. Call me at (714) 555-2121. Contact: carol@fabrikam.com",
+  "attachments": [
+    "ATT-008-draft.txt"
+  ]
+}

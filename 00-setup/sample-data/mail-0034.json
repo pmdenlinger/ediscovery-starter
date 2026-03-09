@@ -1,0 +1,13 @@
+{
+  "from": "dave@example.com",
+  "to": [
+    "dave@example.com"
+  ],
+  "cc": [],
+  "subject": "Counsel Review - Budget discussion",
+  "date": "2025-04-17T07:48:32+00:00",
+  "body": "Can we get outside counsel to review the agreement? We will review this with the team tomorrow morning. Looping in Legal for advice on next steps. Call me at 714-555-3434. Contact: bob@fabrikam.com — minor edit",
+  "attachments": [
+    "ATT-002-draft.txt"
+  ]
+}

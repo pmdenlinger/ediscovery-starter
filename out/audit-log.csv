@@ -1,0 +1,531 @@
+timestamp,action,file_id,operator,details
+2026-03-08T22:14:38Z,INGEST,sample2,system,source=00-setup/sample-data/sample2.eml; size=298
+2026-03-08T22:14:38Z,PII_DETECT,sample2,system,emails=0; phones=1
+2026-03-08T22:14:38Z,PRIVILEGE_HEURISTIC,sample2,system,terms=1
+2026-03-08T22:14:38Z,REVIEW_ADD,sample2,system,duplicate_of=self
+2026-03-08T22:14:38Z,INGEST,sample1,system,source=00-setup/sample-data/sample1.json; size=220
+2026-03-08T22:14:38Z,PII_DETECT,sample1,system,emails=0; phones=1
+2026-03-08T22:14:38Z,PRIVILEGE_HEURISTIC,sample1,system,terms=0
+2026-03-08T22:14:38Z,REVIEW_ADD,sample1,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0037,system,source=00-setup/sample-data/mail-0037.json; size=618
+2026-03-08T22:24:44Z,PII_DETECT,mail-0037,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0037,system,terms=4
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0037,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0040,system,source=00-setup/sample-data/mail-0040.json; size=522
+2026-03-08T22:24:44Z,PII_DETECT,mail-0040,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0040,system,terms=4
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0040,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0036,system,source=00-setup/sample-data/mail-0036.json; size=441
+2026-03-08T22:24:44Z,PII_DETECT,mail-0036,system,emails=1; phones=0
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0036,system,terms=1
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0036,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0022,system,source=00-setup/sample-data/mail-0022.eml; size=366
+2026-03-08T22:24:44Z,PII_DETECT,mail-0022,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0022,system,terms=2
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0022,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0023,system,source=00-setup/sample-data/mail-0023.eml; size=331
+2026-03-08T22:24:44Z,PII_DETECT,mail-0023,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0023,system,terms=0
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0023,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,sample2,system,source=00-setup/sample-data/sample2.eml; size=298
+2026-03-08T22:24:44Z,PII_DETECT,sample2,system,emails=0; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,sample2,system,terms=1
+2026-03-08T22:24:44Z,REVIEW_ADD,sample2,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0031,system,source=00-setup/sample-data/mail-0031.json; size=562
+2026-03-08T22:24:44Z,PII_DETECT,mail-0031,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0031,system,terms=4
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0031,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0021,system,source=00-setup/sample-data/mail-0021.eml; size=429
+2026-03-08T22:24:44Z,PII_DETECT,mail-0021,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0021,system,terms=1
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0021,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0009,system,source=00-setup/sample-data/mail-0009.eml; size=457
+2026-03-08T22:24:44Z,PII_DETECT,mail-0009,system,emails=1; phones=0
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0009,system,terms=4
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0009,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0008,system,source=00-setup/sample-data/mail-0008.eml; size=439
+2026-03-08T22:24:44Z,PII_DETECT,mail-0008,system,emails=1; phones=2
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0008,system,terms=1
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0008,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,sample1,system,source=00-setup/sample-data/sample1.json; size=220
+2026-03-08T22:24:44Z,PII_DETECT,sample1,system,emails=0; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,sample1,system,terms=0
+2026-03-08T22:24:44Z,REVIEW_ADD,sample1,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0020,system,source=00-setup/sample-data/mail-0020.eml; size=385
+2026-03-08T22:24:44Z,PII_DETECT,mail-0020,system,emails=1; phones=2
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0020,system,terms=2
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0020,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0018,system,source=00-setup/sample-data/mail-0018.eml; size=518
+2026-03-08T22:24:44Z,PII_DETECT,mail-0018,system,emails=1; phones=0
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0018,system,terms=4
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0018,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0024,system,source=00-setup/sample-data/mail-0024.eml; size=331
+2026-03-08T22:24:44Z,PII_DETECT,mail-0024,system,emails=1; phones=0
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0024,system,terms=2
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0024,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0025,system,source=00-setup/sample-data/mail-0025.eml; size=557
+2026-03-08T22:24:44Z,PII_DETECT,mail-0025,system,emails=1; phones=2
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0025,system,terms=4
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0025,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0019,system,source=00-setup/sample-data/mail-0019.eml; size=507
+2026-03-08T22:24:44Z,PII_DETECT,mail-0019,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0019,system,terms=4
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0019,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0030,system,source=00-setup/sample-data/mail-0030.json; size=591
+2026-03-08T22:24:44Z,PII_DETECT,mail-0030,system,emails=1; phones=2
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0030,system,terms=4
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0030,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0027,system,source=00-setup/sample-data/mail-0027.eml; size=407
+2026-03-08T22:24:44Z,PII_DETECT,mail-0027,system,emails=1; phones=0
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0027,system,terms=2
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0027,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0026,system,source=00-setup/sample-data/mail-0026.eml; size=385
+2026-03-08T22:24:44Z,PII_DETECT,mail-0026,system,emails=1; phones=0
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0026,system,terms=2
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0026,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0003,system,source=00-setup/sample-data/mail-0003.eml; size=392
+2026-03-08T22:24:44Z,PII_DETECT,mail-0003,system,emails=1; phones=0
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0003,system,terms=3
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0003,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0017,system,source=00-setup/sample-data/mail-0017.eml; size=400
+2026-03-08T22:24:44Z,PII_DETECT,mail-0017,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0017,system,terms=0
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0017,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0016,system,source=00-setup/sample-data/mail-0016.eml; size=340
+2026-03-08T22:24:44Z,PII_DETECT,mail-0016,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0016,system,terms=2
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0016,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0002,system,source=00-setup/sample-data/mail-0002.eml; size=516
+2026-03-08T22:24:44Z,PII_DETECT,mail-0002,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0002,system,terms=4
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0002,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0029,system,source=00-setup/sample-data/mail-0029.json; size=459
+2026-03-08T22:24:44Z,PII_DETECT,mail-0029,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0029,system,terms=1
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0029,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0014,system,source=00-setup/sample-data/mail-0014.eml; size=477
+2026-03-08T22:24:44Z,PII_DETECT,mail-0014,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0014,system,terms=4
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0014,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0028,system,source=00-setup/sample-data/mail-0028.eml; size=427
+2026-03-08T22:24:44Z,PII_DETECT,mail-0028,system,emails=1; phones=2
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0028,system,terms=1
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0028,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0001,system,source=00-setup/sample-data/mail-0001.eml; size=514
+2026-03-08T22:24:44Z,PII_DETECT,mail-0001,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0001,system,terms=4
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0001,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0015,system,source=00-setup/sample-data/mail-0015.eml; size=434
+2026-03-08T22:24:44Z,PII_DETECT,mail-0015,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0015,system,terms=1
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0015,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0033,system,source=00-setup/sample-data/mail-0033.json; size=511
+2026-03-08T22:24:44Z,PII_DETECT,mail-0033,system,emails=1; phones=2
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0033,system,terms=3
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0033,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0032,system,source=00-setup/sample-data/mail-0032.json; size=459
+2026-03-08T22:24:44Z,PII_DETECT,mail-0032,system,emails=1; phones=2
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0032,system,terms=1
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0032,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0011,system,source=00-setup/sample-data/mail-0011.eml; size=508
+2026-03-08T22:24:44Z,PII_DETECT,mail-0011,system,emails=1; phones=2
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0011,system,terms=3
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0011,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0005,system,source=00-setup/sample-data/mail-0005.eml; size=513
+2026-03-08T22:24:44Z,PII_DETECT,mail-0005,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0005,system,terms=4
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0005,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0004,system,source=00-setup/sample-data/mail-0004.eml; size=374
+2026-03-08T22:24:44Z,PII_DETECT,mail-0004,system,emails=1; phones=0
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0004,system,terms=1
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0004,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0010,system,source=00-setup/sample-data/mail-0010.eml; size=482
+2026-03-08T22:24:44Z,PII_DETECT,mail-0010,system,emails=1; phones=2
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0010,system,terms=4
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0010,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0006,system,source=00-setup/sample-data/mail-0006.eml; size=543
+2026-03-08T22:24:44Z,PII_DETECT,mail-0006,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0006,system,terms=4
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0006,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0012,system,source=00-setup/sample-data/mail-0012.eml; size=492
+2026-03-08T22:24:44Z,PII_DETECT,mail-0012,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0012,system,terms=4
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0012,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0013,system,source=00-setup/sample-data/mail-0013.eml; size=355
+2026-03-08T22:24:44Z,PII_DETECT,mail-0013,system,emails=1; phones=0
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0013,system,terms=0
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0013,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0007,system,source=00-setup/sample-data/mail-0007.eml; size=424
+2026-03-08T22:24:44Z,PII_DETECT,mail-0007,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0007,system,terms=3
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0007,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0035,system,source=00-setup/sample-data/mail-0035.json; size=385
+2026-03-08T22:24:44Z,PII_DETECT,mail-0035,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0035,system,terms=2
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0035,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0039,system,source=00-setup/sample-data/mail-0039.json; size=389
+2026-03-08T22:24:44Z,PII_DETECT,mail-0039,system,emails=1; phones=1
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0039,system,terms=2
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0039,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0038,system,source=00-setup/sample-data/mail-0038.json; size=454
+2026-03-08T22:24:44Z,PII_DETECT,mail-0038,system,emails=1; phones=0
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0038,system,terms=1
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0038,system,duplicate_of=self
+2026-03-08T22:24:44Z,INGEST,mail-0034,system,source=00-setup/sample-data/mail-0034.json; size=498
+2026-03-08T22:24:44Z,PII_DETECT,mail-0034,system,emails=1; phones=0
+2026-03-08T22:24:44Z,PRIVILEGE_HEURISTIC,mail-0034,system,terms=4
+2026-03-08T22:24:44Z,REVIEW_ADD,mail-0034,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0037,system,source=00-setup/sample-data/mail-0037.json; size=485
+2026-03-08T22:33:25Z,PII_DETECT,mail-0037,system,emails=1; phones=2
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0037,system,terms=4
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0037,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0040,system,source=00-setup/sample-data/mail-0040.json; size=510
+2026-03-08T22:33:25Z,PII_DETECT,mail-0040,system,emails=1; phones=0
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0040,system,terms=3
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0040,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0036,system,source=00-setup/sample-data/mail-0036.json; size=510
+2026-03-08T22:33:25Z,PII_DETECT,mail-0036,system,emails=1; phones=2
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0036,system,terms=1
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0036,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0022,system,source=00-setup/sample-data/mail-0022.eml; size=403
+2026-03-08T22:33:25Z,PII_DETECT,mail-0022,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0022,system,terms=3
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0022,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0023,system,source=00-setup/sample-data/mail-0023.eml; size=381
+2026-03-08T22:33:25Z,PII_DETECT,mail-0023,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0023,system,terms=2
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0023,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,sample2,system,source=00-setup/sample-data/sample2.eml; size=298
+2026-03-08T22:33:25Z,PII_DETECT,sample2,system,emails=0; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,sample2,system,terms=1
+2026-03-08T22:33:25Z,REVIEW_ADD,sample2,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0031,system,source=00-setup/sample-data/mail-0031.json; size=416
+2026-03-08T22:33:25Z,PII_DETECT,mail-0031,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0031,system,terms=0
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0031,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0021,system,source=00-setup/sample-data/mail-0021.eml; size=500
+2026-03-08T22:33:25Z,PII_DETECT,mail-0021,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0021,system,terms=4
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0021,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0009,system,source=00-setup/sample-data/mail-0009.eml; size=355
+2026-03-08T22:33:25Z,PII_DETECT,mail-0009,system,emails=1; phones=0
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0009,system,terms=0
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0009,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0008,system,source=00-setup/sample-data/mail-0008.eml; size=392
+2026-03-08T22:33:25Z,PII_DETECT,mail-0008,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0008,system,terms=1
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0008,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,sample1,system,source=00-setup/sample-data/sample1.json; size=220
+2026-03-08T22:33:25Z,PII_DETECT,sample1,system,emails=0; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,sample1,system,terms=0
+2026-03-08T22:33:25Z,REVIEW_ADD,sample1,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0020,system,source=00-setup/sample-data/mail-0020.eml; size=425
+2026-03-08T22:33:25Z,PII_DETECT,mail-0020,system,emails=1; phones=0
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0020,system,terms=3
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0020,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0018,system,source=00-setup/sample-data/mail-0018.eml; size=423
+2026-03-08T22:33:25Z,PII_DETECT,mail-0018,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0018,system,terms=1
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0018,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0024,system,source=00-setup/sample-data/mail-0024.eml; size=450
+2026-03-08T22:33:25Z,PII_DETECT,mail-0024,system,emails=1; phones=0
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0024,system,terms=3
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0024,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0025,system,source=00-setup/sample-data/mail-0025.eml; size=489
+2026-03-08T22:33:25Z,PII_DETECT,mail-0025,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0025,system,terms=4
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0025,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0019,system,source=00-setup/sample-data/mail-0019.eml; size=401
+2026-03-08T22:33:25Z,PII_DETECT,mail-0019,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0019,system,terms=0
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0019,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0030,system,source=00-setup/sample-data/mail-0030.json; size=430
+2026-03-08T22:33:25Z,PII_DETECT,mail-0030,system,emails=1; phones=2
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0030,system,terms=2
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0030,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0027,system,source=00-setup/sample-data/mail-0027.eml; size=406
+2026-03-08T22:33:25Z,PII_DETECT,mail-0027,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0027,system,terms=0
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0027,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0026,system,source=00-setup/sample-data/mail-0026.eml; size=477
+2026-03-08T22:33:25Z,PII_DETECT,mail-0026,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0026,system,terms=4
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0026,system,duplicate_of=mail-0025
+2026-03-08T22:33:25Z,INGEST,mail-0003,system,source=00-setup/sample-data/mail-0003.eml; size=459
+2026-03-08T22:33:25Z,PII_DETECT,mail-0003,system,emails=1; phones=0
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0003,system,terms=4
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0003,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0017,system,source=00-setup/sample-data/mail-0017.eml; size=425
+2026-03-08T22:33:25Z,PII_DETECT,mail-0017,system,emails=1; phones=2
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0017,system,terms=1
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0017,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0016,system,source=00-setup/sample-data/mail-0016.eml; size=403
+2026-03-08T22:33:25Z,PII_DETECT,mail-0016,system,emails=1; phones=2
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0016,system,terms=2
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0016,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0002,system,source=00-setup/sample-data/mail-0002.eml; size=462
+2026-03-08T22:33:25Z,PII_DETECT,mail-0002,system,emails=1; phones=0
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0002,system,terms=4
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0002,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0029,system,source=00-setup/sample-data/mail-0029.json; size=514
+2026-03-08T22:33:25Z,PII_DETECT,mail-0029,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0029,system,terms=3
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0029,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0014,system,source=00-setup/sample-data/mail-0014.eml; size=450
+2026-03-08T22:33:25Z,PII_DETECT,mail-0014,system,emails=1; phones=0
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0014,system,terms=1
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0014,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0028,system,source=00-setup/sample-data/mail-0028.eml; size=486
+2026-03-08T22:33:25Z,PII_DETECT,mail-0028,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0028,system,terms=3
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0028,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0001,system,source=00-setup/sample-data/mail-0001.eml; size=429
+2026-03-08T22:33:25Z,PII_DETECT,mail-0001,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0001,system,terms=1
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0001,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0015,system,source=00-setup/sample-data/mail-0015.eml; size=507
+2026-03-08T22:33:25Z,PII_DETECT,mail-0015,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0015,system,terms=4
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0015,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0033,system,source=00-setup/sample-data/mail-0033.json; size=385
+2026-03-08T22:33:25Z,PII_DETECT,mail-0033,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0033,system,terms=2
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0033,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0032,system,source=00-setup/sample-data/mail-0032.json; size=498
+2026-03-08T22:33:25Z,PII_DETECT,mail-0032,system,emails=1; phones=0
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0032,system,terms=4
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0032,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0011,system,source=00-setup/sample-data/mail-0011.eml; size=523
+2026-03-08T22:33:25Z,PII_DETECT,mail-0011,system,emails=1; phones=2
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0011,system,terms=4
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0011,system,duplicate_of=mail-0037
+2026-03-08T22:33:25Z,INGEST,mail-0005,system,source=00-setup/sample-data/mail-0005.eml; size=453
+2026-03-08T22:33:25Z,PII_DETECT,mail-0005,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0005,system,terms=4
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0005,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0004,system,source=00-setup/sample-data/mail-0004.eml; size=531
+2026-03-08T22:33:25Z,PII_DETECT,mail-0004,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0004,system,terms=3
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0004,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0010,system,source=00-setup/sample-data/mail-0010.eml; size=527
+2026-03-08T22:33:25Z,PII_DETECT,mail-0010,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0010,system,terms=3
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0010,system,duplicate_of=mail-0004
+2026-03-08T22:33:25Z,INGEST,mail-0006,system,source=00-setup/sample-data/mail-0006.eml; size=384
+2026-03-08T22:33:25Z,PII_DETECT,mail-0006,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0006,system,terms=0
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0006,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0012,system,source=00-setup/sample-data/mail-0012.eml; size=561
+2026-03-08T22:33:25Z,PII_DETECT,mail-0012,system,emails=1; phones=2
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0012,system,terms=4
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0012,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0013,system,source=00-setup/sample-data/mail-0013.eml; size=537
+2026-03-08T22:33:25Z,PII_DETECT,mail-0013,system,emails=1; phones=2
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0013,system,terms=4
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0013,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0007,system,source=00-setup/sample-data/mail-0007.eml; size=333
+2026-03-08T22:33:25Z,PII_DETECT,mail-0007,system,emails=1; phones=0
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0007,system,terms=2
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0007,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0035,system,source=00-setup/sample-data/mail-0035.json; size=424
+2026-03-08T22:33:25Z,PII_DETECT,mail-0035,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0035,system,terms=1
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0035,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0039,system,source=00-setup/sample-data/mail-0039.json; size=431
+2026-03-08T22:33:25Z,PII_DETECT,mail-0039,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0039,system,terms=1
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0039,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0038,system,source=00-setup/sample-data/mail-0038.json; size=502
+2026-03-08T22:33:25Z,PII_DETECT,mail-0038,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0038,system,terms=1
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0038,system,duplicate_of=self
+2026-03-08T22:33:25Z,INGEST,mail-0034,system,source=00-setup/sample-data/mail-0034.json; size=446
+2026-03-08T22:33:25Z,PII_DETECT,mail-0034,system,emails=1; phones=1
+2026-03-08T22:33:25Z,PRIVILEGE_HEURISTIC,mail-0034,system,terms=2
+2026-03-08T22:33:25Z,REVIEW_ADD,mail-0034,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0037,system,source=00-setup/sample-data/mail-0037.json; size=485
+2026-03-09T16:01:35Z,PII_DETECT,mail-0037,system,emails=1; phones=2
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0037,system,terms=4; score=65
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0037,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0040,system,source=00-setup/sample-data/mail-0040.json; size=510
+2026-03-09T16:01:35Z,PII_DETECT,mail-0040,system,emails=1; phones=0
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0040,system,terms=3; score=75
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0040,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0036,system,source=00-setup/sample-data/mail-0036.json; size=510
+2026-03-09T16:01:35Z,PII_DETECT,mail-0036,system,emails=1; phones=2
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0036,system,terms=1; score=30
+2026-03-09T16:01:35Z,ATTACHMENTS_COPIED,mail-0036,system,count=2
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0036,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0022,system,source=00-setup/sample-data/mail-0022.eml; size=403
+2026-03-09T16:01:35Z,PII_DETECT,mail-0022,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0022,system,terms=3; score=65
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0022,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0023,system,source=00-setup/sample-data/mail-0023.eml; size=381
+2026-03-09T16:01:35Z,PII_DETECT,mail-0023,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0023,system,terms=2; score=25
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0023,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,sample2,system,source=00-setup/sample-data/sample2.eml; size=298
+2026-03-09T16:01:35Z,PII_DETECT,sample2,system,emails=0; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,sample2,system,terms=1; score=40
+2026-03-09T16:01:35Z,REVIEW_ADD,sample2,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0031,system,source=00-setup/sample-data/mail-0031.json; size=416
+2026-03-09T16:01:35Z,PII_DETECT,mail-0031,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0031,system,terms=0; score=10
+2026-03-09T16:01:35Z,ATTACHMENTS_COPIED,mail-0031,system,count=1
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0031,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0021,system,source=00-setup/sample-data/mail-0021.eml; size=500
+2026-03-09T16:01:35Z,PII_DETECT,mail-0021,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0021,system,terms=4; score=90
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0021,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0009,system,source=00-setup/sample-data/mail-0009.eml; size=355
+2026-03-09T16:01:35Z,PII_DETECT,mail-0009,system,emails=1; phones=0
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0009,system,terms=0; score=0
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0009,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0008,system,source=00-setup/sample-data/mail-0008.eml; size=392
+2026-03-09T16:01:35Z,PII_DETECT,mail-0008,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0008,system,terms=1; score=35
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0008,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,sample1,system,source=00-setup/sample-data/sample1.json; size=220
+2026-03-09T16:01:35Z,PII_DETECT,sample1,system,emails=0; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,sample1,system,terms=0; score=0
+2026-03-09T16:01:35Z,REVIEW_ADD,sample1,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0020,system,source=00-setup/sample-data/mail-0020.eml; size=425
+2026-03-09T16:01:35Z,PII_DETECT,mail-0020,system,emails=1; phones=0
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0020,system,terms=3; score=45
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0020,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0018,system,source=00-setup/sample-data/mail-0018.eml; size=423
+2026-03-09T16:01:35Z,PII_DETECT,mail-0018,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0018,system,terms=1; score=30
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0018,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0024,system,source=00-setup/sample-data/mail-0024.eml; size=450
+2026-03-09T16:01:35Z,PII_DETECT,mail-0024,system,emails=1; phones=0
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0024,system,terms=3; score=50
+2026-03-09T16:01:35Z,ATTACHMENTS_COPIED,mail-0024,system,count=2
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0024,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0025,system,source=00-setup/sample-data/mail-0025.eml; size=489
+2026-03-09T16:01:35Z,PII_DETECT,mail-0025,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0025,system,terms=4; score=100
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0025,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0019,system,source=00-setup/sample-data/mail-0019.eml; size=401
+2026-03-09T16:01:35Z,PII_DETECT,mail-0019,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0019,system,terms=0; score=30
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0019,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0030,system,source=00-setup/sample-data/mail-0030.json; size=430
+2026-03-09T16:01:35Z,PII_DETECT,mail-0030,system,emails=1; phones=2
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0030,system,terms=2; score=25
+2026-03-09T16:01:35Z,ATTACHMENTS_COPIED,mail-0030,system,count=1
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0030,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0027,system,source=00-setup/sample-data/mail-0027.eml; size=406
+2026-03-09T16:01:35Z,PII_DETECT,mail-0027,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0027,system,terms=0; score=0
+2026-03-09T16:01:35Z,ATTACHMENTS_COPIED,mail-0027,system,count=2
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0027,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0026,system,source=00-setup/sample-data/mail-0026.eml; size=477
+2026-03-09T16:01:35Z,PII_DETECT,mail-0026,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0026,system,terms=4; score=100
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0026,system,duplicate_of=mail-0025
+2026-03-09T16:01:35Z,INGEST,mail-0003,system,source=00-setup/sample-data/mail-0003.eml; size=459
+2026-03-09T16:01:35Z,PII_DETECT,mail-0003,system,emails=1; phones=0
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0003,system,terms=4; score=85
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0003,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0017,system,source=00-setup/sample-data/mail-0017.eml; size=425
+2026-03-09T16:01:35Z,PII_DETECT,mail-0017,system,emails=1; phones=2
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0017,system,terms=1; score=40
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0017,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0016,system,source=00-setup/sample-data/mail-0016.eml; size=403
+2026-03-09T16:01:35Z,PII_DETECT,mail-0016,system,emails=1; phones=2
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0016,system,terms=2; score=25
+2026-03-09T16:01:35Z,ATTACHMENTS_COPIED,mail-0016,system,count=1
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0016,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0002,system,source=00-setup/sample-data/mail-0002.eml; size=462
+2026-03-09T16:01:35Z,PII_DETECT,mail-0002,system,emails=1; phones=0
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0002,system,terms=4; score=75
+2026-03-09T16:01:35Z,ATTACHMENTS_COPIED,mail-0002,system,count=2
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0002,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0029,system,source=00-setup/sample-data/mail-0029.json; size=514
+2026-03-09T16:01:35Z,PII_DETECT,mail-0029,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0029,system,terms=3; score=75
+2026-03-09T16:01:35Z,ATTACHMENTS_COPIED,mail-0029,system,count=2
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0029,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0014,system,source=00-setup/sample-data/mail-0014.eml; size=450
+2026-03-09T16:01:35Z,PII_DETECT,mail-0014,system,emails=1; phones=0
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0014,system,terms=1; score=25
+2026-03-09T16:01:35Z,ATTACHMENTS_COPIED,mail-0014,system,count=2
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0014,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0028,system,source=00-setup/sample-data/mail-0028.eml; size=486
+2026-03-09T16:01:35Z,PII_DETECT,mail-0028,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0028,system,terms=3; score=75
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0028,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0001,system,source=00-setup/sample-data/mail-0001.eml; size=429
+2026-03-09T16:01:35Z,PII_DETECT,mail-0001,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0001,system,terms=1; score=40
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0001,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0015,system,source=00-setup/sample-data/mail-0015.eml; size=507
+2026-03-09T16:01:35Z,PII_DETECT,mail-0015,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0015,system,terms=4; score=95
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0015,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0033,system,source=00-setup/sample-data/mail-0033.json; size=385
+2026-03-09T16:01:35Z,PII_DETECT,mail-0033,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0033,system,terms=2; score=25
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0033,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0032,system,source=00-setup/sample-data/mail-0032.json; size=498
+2026-03-09T16:01:35Z,PII_DETECT,mail-0032,system,emails=1; phones=0
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0032,system,terms=4; score=100
+2026-03-09T16:01:35Z,ATTACHMENTS_COPIED,mail-0032,system,count=1
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0032,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0011,system,source=00-setup/sample-data/mail-0011.eml; size=523
+2026-03-09T16:01:35Z,PII_DETECT,mail-0011,system,emails=1; phones=2
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0011,system,terms=4; score=75
+2026-03-09T16:01:35Z,ATTACHMENTS_COPIED,mail-0011,system,count=1
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0011,system,duplicate_of=mail-0037
+2026-03-09T16:01:35Z,INGEST,mail-0005,system,source=00-setup/sample-data/mail-0005.eml; size=453
+2026-03-09T16:01:35Z,PII_DETECT,mail-0005,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0005,system,terms=4; score=90
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0005,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0004,system,source=00-setup/sample-data/mail-0004.eml; size=531
+2026-03-09T16:01:35Z,PII_DETECT,mail-0004,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0004,system,terms=3; score=55
+2026-03-09T16:01:35Z,ATTACHMENTS_COPIED,mail-0004,system,count=2
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0004,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0010,system,source=00-setup/sample-data/mail-0010.eml; size=527
+2026-03-09T16:01:35Z,PII_DETECT,mail-0010,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0010,system,terms=3; score=55
+2026-03-09T16:01:35Z,ATTACHMENTS_COPIED,mail-0010,system,count=2
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0010,system,duplicate_of=mail-0004
+2026-03-09T16:01:35Z,INGEST,mail-0006,system,source=00-setup/sample-data/mail-0006.eml; size=384
+2026-03-09T16:01:35Z,PII_DETECT,mail-0006,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0006,system,terms=0; score=0
+2026-03-09T16:01:35Z,ATTACHMENTS_COPIED,mail-0006,system,count=1
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0006,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0012,system,source=00-setup/sample-data/mail-0012.eml; size=561
+2026-03-09T16:01:35Z,PII_DETECT,mail-0012,system,emails=1; phones=2
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0012,system,terms=4; score=90
+2026-03-09T16:01:35Z,ATTACHMENTS_COPIED,mail-0012,system,count=2
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0012,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0013,system,source=00-setup/sample-data/mail-0013.eml; size=537
+2026-03-09T16:01:35Z,PII_DETECT,mail-0013,system,emails=1; phones=2
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0013,system,terms=4; score=100
+2026-03-09T16:01:35Z,ATTACHMENTS_COPIED,mail-0013,system,count=1
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0013,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0007,system,source=00-setup/sample-data/mail-0007.eml; size=333
+2026-03-09T16:01:35Z,PII_DETECT,mail-0007,system,emails=1; phones=0
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0007,system,terms=2; score=25
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0007,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0035,system,source=00-setup/sample-data/mail-0035.json; size=424
+2026-03-09T16:01:35Z,PII_DETECT,mail-0035,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0035,system,terms=1; score=30
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0035,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0039,system,source=00-setup/sample-data/mail-0039.json; size=431
+2026-03-09T16:01:35Z,PII_DETECT,mail-0039,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0039,system,terms=1; score=40
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0039,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0038,system,source=00-setup/sample-data/mail-0038.json; size=502
+2026-03-09T16:01:35Z,PII_DETECT,mail-0038,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0038,system,terms=1; score=30
+2026-03-09T16:01:35Z,ATTACHMENTS_COPIED,mail-0038,system,count=1
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0038,system,duplicate_of=self
+2026-03-09T16:01:35Z,INGEST,mail-0034,system,source=00-setup/sample-data/mail-0034.json; size=446
+2026-03-09T16:01:35Z,PII_DETECT,mail-0034,system,emails=1; phones=1
+2026-03-09T16:01:35Z,PRIVILEGE_HEURISTIC,mail-0034,system,terms=2; score=35
+2026-03-09T16:01:35Z,ATTACHMENTS_COPIED,mail-0034,system,count=1
+2026-03-09T16:01:35Z,REVIEW_ADD,mail-0034,system,duplicate_of=self

@@ -1,0 +1,43 @@
+file_id,emails_found,phones_found,count_emails,count_phones
+mail-0037,alice@example.com,(714) 555-2121;+1-714-555-1212,1,2
+mail-0040,carol@fabrikam.com,,1,0
+mail-0036,alice@fabrikam.com,(714) 555-2121;+1 714 555 6565,1,2
+mail-0022,carol@contoso.com,(714) 555-2121,1,1
+mail-0023,bob@contoso.com,+1 714 555 6565,1,1
+sample2,,(714) 555-2121,0,1
+mail-0031,carol@contoso.com,714-555-3434,1,1
+mail-0021,bob@contoso.com,714-555-3434,1,1
+mail-0009,carol@example.com,,1,0
+mail-0008,alice@example.com,(714) 555-2121,1,1
+sample1,,+1-714-555-1212,0,1
+mail-0020,alice@example.com,,1,0
+mail-0018,carol@fabrikam.com,(714) 555-2121,1,1
+mail-0024,dave@contoso.com,,1,0
+mail-0025,eve@fabrikam.com,714-555-3434,1,1
+mail-0019,dave@example.com,(714) 555-2121,1,1
+mail-0030,dave@example.com,(714) 555-2121;+1 714 555 6565,1,2
+mail-0027,eve@example.com,(714) 555-2121,1,1
+mail-0026,eve@fabrikam.com,714-555-3434,1,1
+mail-0003,bob@contoso.com,,1,0
+mail-0017,carol@example.com,(714) 555-2121;714-555-3434,1,2
+mail-0016,eve@fabrikam.com,(714) 555-2121;714-555-3434,1,2
+mail-0002,alice@example.com,,1,0
+mail-0029,eve@fabrikam.com,+1-714-555-1212,1,1
+mail-0014,eve@contoso.com,,1,0
+mail-0028,carol@example.com,+1-714-555-1212,1,1
+mail-0001,carol@fabrikam.com,714-555-3434,1,1
+mail-0015,eve@contoso.com,+1-714-555-1212,1,1
+mail-0033,alice@contoso.com,714-555-3434,1,1
+mail-0032,bob@contoso.com,,1,0
+mail-0011,alice@example.com,(714) 555-2121;+1-714-555-1212,1,2
+mail-0005,alice@fabrikam.com,+1-714-555-1212,1,1
+mail-0004,bob@contoso.com,714-555-3434,1,1
+mail-0010,bob@contoso.com,714-555-3434,1,1
+mail-0006,bob@contoso.com,(714) 555-2121,1,1
+mail-0012,dave@example.com,(714) 555-2121;714-555-3434,1,2
+mail-0013,eve@contoso.com,(714) 555-2121;+1-714-555-1212,1,2
+mail-0007,bob@fabrikam.com,,1,0
+mail-0035,alice@example.com,(714) 555-2121,1,1
+mail-0039,bob@contoso.com,714-555-3434,1,1
+mail-0038,carol@fabrikam.com,(714) 555-2121,1,1
+mail-0034,bob@fabrikam.com,714-555-3434,1,1

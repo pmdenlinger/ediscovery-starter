@@ -1,0 +1,13 @@
+{
+  "from": "bob@contoso.com",
+  "to": [
+    "finance@contoso.com"
+  ],
+  "cc": [],
+  "subject": "Confidential - Vendor onboarding",
+  "date": "2025-02-25T04:29:47+00:00",
+  "body": "J’ajoute le service juridique pour avis. Pouvons-nous demander au conseil externe d’examiner l’accord ? Appelez-moi au 714-555-3434 si besoin. Contact: carol@contoso.com + note",
+  "attachments": [
+    "ATT-002-draft.txt"
+  ]
+}

@@ -1,0 +1,7 @@
+cluster_id,rep_id,file_id,similarity
+ND1,mail-0037,mail-0037,1.000
+ND1,mail-0037,mail-0011,1.000
+ND2,mail-0004,mail-0004,1.000
+ND2,mail-0004,mail-0010,1.000
+ND3,mail-0026,mail-0026,1.000
+ND3,mail-0026,mail-0025,1.000

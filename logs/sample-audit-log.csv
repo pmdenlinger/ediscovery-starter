@@ -1,0 +1,6 @@
+timestamp,action,file_id,operator,details
+2026-03-08T20:30:00Z,INGEST,mail-0001,system,source=synthetic-emails; size=2KB
+2026-03-08T20:30:02Z,NORMALIZE,mail-0001,system,cleaned=true; tokens=125
+2026-03-08T20:30:03Z,PII_DETECT,mail-0001,system,email=true; phone=false
+2026-03-08T20:30:03Z,PRIVILEGE_HEURISTIC,mail-0001,system,privileged_terms=0
+2026-03-08T20:30:04Z,REVIEW_ADD,mail-0001,system,tags=non-privileged

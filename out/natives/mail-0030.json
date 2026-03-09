@@ -1,0 +1,13 @@
+{
+  "from": "eve@fabrikam.com",
+  "to": [
+    "eve@fabrikam.com"
+  ],
+  "cc": [],
+  "subject": "Data transfer assessment",
+  "date": "2026-01-29T07:30:08+00:00",
+  "body": "Call me at (714) 555-2121 if you have questions. We will review this with the team tomorrow morning. Can we get outside counsel to review the agreement? Call me at +1 714 555 6565. Contact: dave@example.com",
+  "attachments": [
+    "ATT-007-draft.txt"
+  ]
+}

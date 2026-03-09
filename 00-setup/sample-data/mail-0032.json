@@ -1,0 +1,15 @@
+{
+  "from": "bob@contoso.com",
+  "to": [
+    "hr@fabrikam.com"
+  ],
+  "cc": [
+    "ben.takeda@lawfirm.co"
+  ],
+  "subject": "Work Product - Pricing terms",
+  "date": "2024-06-05T11:53:05+00:00",
+  "body": "我们明天上午和团队一起评审。 把法务团队抄送，征求下一步建议。 请看附件草稿并提出意见。 This may contain work product material. Escalating to outside counsel for legal advice. Contact: bob@contoso.com",
+  "attachments": [
+    "ATT-005-draft.txt"
+  ]
+}
