@@ -14,7 +14,7 @@
 
 - [ ] Perform collection and validation
 
-- [ ] ** Acquisition report/collection log** -- Prepare/obtain acquisition report or collection log
+- [ ] **Acquisition report/collection log** -- Prepare/obtain acquisition report or collection log
 
 - [ ] **Chain of custody** -- Initiate/obtain chain of custody documentation
 
