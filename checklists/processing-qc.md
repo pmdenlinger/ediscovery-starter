@@ -8,7 +8,7 @@
 
 - [ ] **Vendor documentation (conflicts, NDA, SOW)** -- Engage resources to perform processing
 
--[ ] **Ingestion/EDA report/search hit report** -- Ingest ESI, filter ESI, and generate reports
+- [ ] **Ingestion/EDA report/search hit report** -- Ingest ESI, filter ESI, and generate reports
 
 - [ ] Perform processing of ESI
 
@@ -26,8 +26,8 @@
 
 - [ ] Record ESI loaded data metrics
 
--[ ] **Updated chain of custody** -- Update chain of custody/disposition of client data
+- [ ] **Updated chain of custody** -- Update chain of custody/disposition of client data
 
--[ ] **Analytics reports** -- Utilize analytics(clustering, near-duplicate, email threading, foreign language)
+- [ ] **Analytics reports** -- Utilize analytics(clustering, near-duplicate, email threading, foreign language)
 
 - [ ] **Status report** -- Close processing/prepare status report
