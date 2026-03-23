@@ -1,6 +1,7 @@
 # eDiscovery Starter Repository
 
 **Introduction** 
+
 ediscovery is the subset of data governance which deals with the collection of ESI (electronically stored evidence) in businesses and organizations for use in litigation. In the US, ediscovery has become an increasingly important phase in litigation, and commands up to 60% of litigation costs.
 
 ediscovery has been defined as multiple phases through the EDRM (Electronic Data Reference Model) diagram below.
