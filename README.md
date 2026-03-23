@@ -7,7 +7,6 @@ ediscovery has been defined as multiple phases through the EDRM (Electronic Data
 
 ![EDRM model diagram](images/EDRM-Model-2023-simplified-FINAL2-3.png)
 
-![Pipeline screenshot](images/Screenshot%202026-03-23%20at%2011.16.45 AM.png)
 
 The aim of ediscovery is to collect data from relevant organizations and individuals when litigation begins with the issuance of a legal hold, and filter the data by relevancy so that it can be used in court by the opposing sides. A legal hold effectively suspends the corporate rules dealing with data life-cycle management, and puts it into a limited scope freeze. On the left side, corporate documents and communications are filtered by relevancy to the case on hand and the individuals involved including communications on corporate and personal devices.
 
